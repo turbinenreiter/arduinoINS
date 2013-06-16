@@ -1,5 +1,5 @@
 arduinoINS
 ==========
 
-An Arduino-based INS. \n
-http://randomsenseless.blogspot.de/
+An Arduino-based INS.
+/nhttp://randomsenseless.blogspot.de/
