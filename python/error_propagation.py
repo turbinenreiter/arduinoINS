@@ -2,7 +2,7 @@ import numpy as np
 from scipy import integrate as i
 from pylab import *
 
-t = np.arange(0,101,1)
+t = np.arange(0,100,1)
 acc = np.empty(101); acc.fill(10)
 acc_error = acc + 1
 dist = i.cumtrapz(i.cumtrapz(acc, t), t)
