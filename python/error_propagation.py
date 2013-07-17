@@ -7,7 +7,7 @@ acc = np.empty(100); acc.fill(10)
 acc_error = acc + 1
 velo = i.cumtrapz(acc, t)
 velo_error = i.cumtrapz(acc_error, t)
-t = t(0:99)
+t = t[0:99]
 dist = i.cumtrapz(velo, t)
 dist_error = i.cumtrapz(velo_error, t)
 
