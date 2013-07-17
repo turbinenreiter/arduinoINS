@@ -3,7 +3,7 @@ from scipy import integrate as i
 from pylab import *
 
 t = np.arange(0,101,1)
-acc = np.empty(102); acc.fill(10)
+acc = np.empty(101); acc.fill(10)
 acc_error = acc + 1
 dist = i.cumtrapz(i.cumtrapz(acc, t), t)
 dist_error = i.cumtrapz(i.cumtrapz(acc_error, t), t)
