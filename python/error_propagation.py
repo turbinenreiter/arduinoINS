@@ -5,8 +5,8 @@ from pylab import *
 t = np.arange(0,100,1)
 acc = np.empty(100); acc.fill(10)
 acc_error = acc + 1
-dist = i.cumtrapz(acc, t)
-dist_error = i.cumtrapz(acc_error, t)
+velo = i.cumtrapz(acc, t)
+velo_error = i.cumtrapz(acc_error, t)
 
 acc_diff = acc_error - acc
 dist_diff = dist_error - dist
