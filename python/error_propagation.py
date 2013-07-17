@@ -33,7 +33,7 @@ plt.ylabel('distance')
 plt.title('distance with error')
 plt.legend(['dist', 'dist+error'], loc = 'lower right')
 plt.savefig('dist.pdf')
-
+plt.xkcd()
 plt.figure(3)
 plt.plot(acc_diff)
 plt.plot(dist_diff)
